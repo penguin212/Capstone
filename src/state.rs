@@ -5,9 +5,9 @@ use std::cmp::Ordering;
 use std::num;
 use std::u128::MAX;
 
-const MAX_VELOCITY: i32 = 10;
+const MAX_VELOCITY: i32 = 20;
 
-#[derive(Copy, Clone, Eq, PartialEq)]
+#[derive(Copy, Clone, Eq, PartialEq, Hash)]
 pub struct State {
     pub x: i32,
     pub y: i32,
